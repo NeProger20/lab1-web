@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Home</title>
+ </head>
+ <body style="padding-left: 30px;">
+  <h2>Номер карты</h2>
+  <!-- Комментарий -->
+  <div style="margin: 30px;">
+      <input type="text" id="number" placeholder="Введите номер карты 1-6">
+      
+
+      <p>Для ввода номера нажмите "Enter"</p>
+    </div><h2>Карты</h2>
+  <div class="radio" style="margin: 30px;"> 
+    
+    <p>Тип сортировки</p>
+    <p><input type="radio" name="sort" value="desc" > по убыванию id</p>
+    <p><input type="radio" name="sort" value="asc" > по возрастанию id</p>
+    <p><input type="button" id="but" value="enter"></p>
+  </div>
+  <div>
+    <h2>Вывод:</h2>
+    <div style="padding-left: 30px;">
+        <p id="output"></p>
+        </div>
+  </div>
+  <script src = script.js></script>
+ </body>
+</html>
